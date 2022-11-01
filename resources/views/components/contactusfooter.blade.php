@@ -1,8 +1,8 @@
 <div class="bg-zinc-100">
 
     <div class="object-center flex justify-center mt-10">
-        <img class=""
-            src="images/AntarKitaLogo.png" alt="AntarKita Logo">
+        <img class="object-contain h-24 w-48"
+            src="images/AntarKitaLogoTransparent.png" alt="AntarKita Logo">
     </div>
 
     <span class="block text-md text-center text-gray-500 dark:text-slate-900 my-2 font-medium">Tertarik?</span>
