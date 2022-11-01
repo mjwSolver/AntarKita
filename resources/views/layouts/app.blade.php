@@ -31,6 +31,9 @@
             <main>
                 @yield('container')
             </main>
+
+            @include('components.contactusfooter')
+            @include('components.footer')
         </div>
     </body>
 </html>
