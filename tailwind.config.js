@@ -10,5 +10,5 @@ module.exports = {
       'sans': ['"inter"', '"roboto"', '"helvetica"']
     },
   },
-  plugins: [],
+  plugins: [require('@tailwindcss/aspect-ratio')],
 }

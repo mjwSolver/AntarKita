@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -32,8 +31,10 @@
                 @yield('container')
             </main>
 
-            @include('components.contactusfooter')
-            @include('components.footer')
+            <div class="pt-32">
+                <x-contactusfooter />
+            </div>
+            <x-footer />
         </div>
     </body>
 </html>
