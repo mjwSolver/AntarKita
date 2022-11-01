@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <head>
@@ -16,7 +15,7 @@
 <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100">
             {{-- Navbar inclusion --}}
-            @include('components.navbar')
+           <x-navbar />
 
             <!-- Page Heading -->
             @if (isset($header))
@@ -32,8 +31,10 @@
                 @yield('container')
             </main>
 
-            @include('components.contactusfooter')
-            @include('components.footer')
+            <div class="pt-32">
+                <x-contactusfooter />
+            </div>
+            <x-footer />
         </div>
     </body>
 </html>
