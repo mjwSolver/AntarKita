@@ -13,7 +13,7 @@
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="font-sans antialiased">
-        <div class="min-h-screen bg-gray-100">
+        <div class="min-h-screen bg-zinc-50">
             {{-- Navbar inclusion --}}
            <x-navbar />
 
@@ -31,7 +31,7 @@
                 @yield('container')
             </main>
 
-            <div class="pt-32">
+            <div class="pt-40">
                 <x-contactusfooter />
             </div>
             <x-footer />

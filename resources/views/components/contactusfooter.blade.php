@@ -4,7 +4,6 @@
         <img class="object-contain h-24 w-48"
             src="images/AntarKitaLogoTransparent.png" alt="AntarKita Logo">
     </div>
-
     <span class="block text-md text-center text-gray-500 dark:text-slate-900 my-2 font-medium">Tertarik?</span>
     <span class="block text-md text-center text-gray-500 dark:text-slate-900 my-2 font-semibold">Kontak kami untuk mendiskusikan proyek anda!</span>
 
