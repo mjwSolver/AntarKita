@@ -1,6 +1,13 @@
 @php
-    $current = 'block py-2 pr-4 pl-3 font-sans text-lg font-bold text-slate-900 bg-zinc-50 rounded md:hover:bg-transparent md:hover:text-blue-700 md:text-slate-900 md:p-0 md:dark:hover:text-white dark:text-slate-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700';
-    $notcurrent = 'block py-2 pr-4 pl-3 font-sans text-lg text-slate-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-white dark:text-slate-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700'
+    $current = 'block py-2 pr-4 pl-3 font-sans text-lg font-bold text-slate-900 bg-zinc-50 rounded md:hover:bg-transparent md:hover:text-blue-700 md:text-slate-900 md:p-0 
+      md:dark:hover:text-slate-900 dark:text-slate-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+      transition ease-in-out delay-50 duration-200
+      ';
+
+    $notcurrent = 'block py-2 pr-4 pl-3 font-sans text-lg text-slate-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-slate-700 md:p-0
+      md:dark:hover:text-slate-400 dark:text-slate-900 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700
+      transition ease-in-out delay-50 duration-200
+      ';
 @endphp
 <nav
     class="bg-zinc-50 px-2 sm:px-4 py-2.5 dark:bg-border-zinc-50 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-zinc-50">
