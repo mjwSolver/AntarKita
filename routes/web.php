@@ -18,6 +18,8 @@ Route::view('/', 'welcome');
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+
+Route::view('contact', 'contact')->name('contact');
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
