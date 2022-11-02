@@ -19,7 +19,7 @@
                         <div class="mt-5 w-full sm:mx-auto sm:max-w-lg lg:ml-0">
                             <div class="flex flex-wrap items-start lg:justify-start justify-start md:justify-center">
                                 <div class="flex justify-center px-1">
-                                    <a href="#"
+                                    <a href="{{route('contact_us')}}"
                                        class="inline-flex items-center rounded-md border border-transparent bg-slate-900 px-4 py-2 text-base font-medium text-white shadow-sm hover:bg-slate-800 focus:outline-none focus:ring-2 focus:ring-slate-700 focus:ring-offset-2">
                                         <svg xmlns="http://www.w3.org/2000/svg" class="-ml-1 mr-3 h-5 w-5"
                                              fill="currentColor" viewBox="0 0 448 512">
@@ -33,7 +33,7 @@
                                 <div class="flex justify-center px-1">
                                     <button type="button"
                                             class="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                                        <a href="portfolio"> Lihat Portofolio </a>
+                                        <a href="{{route('portfolio')}}"> Lihat Portofolio </a>
                                     </button>
                                 </div>
 
@@ -180,17 +180,17 @@
             <div class="relative pb-5 flex overflow-hidden gap-5">
                 <div class="animate-marquee whitespace-nowrap">
                     <div class="w-[100vw] grid grid-cols-3 gap-5">
-                        <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
-                        <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
-                        <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
+                        @foreach($carousel_top as $carousel)
+                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel" aria-hidden="true">
+                        @endforeach
                     </div>
                 </div>
 
                 <div class="absolute top-0 animate-marquee2 whitespace-nowrap">
                     <div class="w-[100vw] ml-3 grid grid-cols-3 gap-5">
-                        <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
-                        <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
-                        <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
+                        @foreach($carousel_top as $carousel)
+                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel image" aria-hidden="true">
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -198,17 +198,17 @@
             <div class="relative flex overflow-hidden gap-5">
                 <div class="animate-marquee-reverse whitespace-nowrap">
                     <div class="w-[100vw] grid grid-cols-3 gap-5">
-                        <img src="{{asset('images/prewed/prewed6_sm.JPG')}}" class="rounded">
-                        <img src="{{asset('images/singles/single3_SM.jpg')}}" class="rounded">
-                        <img src="{{asset('images/singles/single2_SM.jpg')}}" class="rounded">
+                        @foreach($carousel_bottom as $carousel)
+                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel" aria-hidden="true">
+                        @endforeach
                     </div>
                 </div>
 
                 <div class="absolute top-0 animate-marquee2-reverse whitespace-nowrap">
                     <div class="w-[100vw] ml-3 grid grid-cols-3 gap-5">
-                        <img src="{{asset('images/prewed/prewed6_sm.JPG')}}" class="rounded">
-                        <img src="{{asset('images/singles/single3_SM.jpg')}}" class="rounded">
-                        <img src="{{asset('images/singles/single2_SM.jpg')}}" class="rounded">
+                        @foreach($carousel_bottom as $carousel)
+                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel" aria-hidden="true">
+                        @endforeach
                     </div>
                 </div>
             </div>
@@ -219,7 +219,7 @@
         </div>
 
         <div class="w-full flex items-center justify-center mt-4">
-            <a href="portfolio"
+            <a href="{{route('portfolio')}}"
                class="inline-flex items-center px-32 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Lihat Portofolio
             </a>

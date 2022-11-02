@@ -1,4 +1,4 @@
-@if(!request()->routeIs('contact'))
+@if(!request()->routeIs('contact_us'))
     <div class="bg-zinc-100 pt-5">
         <div class="object-center flex justify-center mt-5">
             <img class="object-contain h-24 w-48"
