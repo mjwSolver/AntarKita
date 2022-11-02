@@ -1,6 +1,6 @@
-<div class="bg-zinc-100">
+<div class="bg-zinc-100 pt-5">
 
-    <div class="object-center flex justify-center mt-10">
+    <div class="object-center flex justify-center mt-5">
         <img class="object-contain h-24 w-48"
             src="images/AntarKitaLogoTransparent.png" alt="AntarKita Logo">
     </div>
