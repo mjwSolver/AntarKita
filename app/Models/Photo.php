@@ -59,7 +59,7 @@ class Photo extends Model
             'imagepath' => "singles/single3_sm.jpg"
         ],
         [
-            'title' => "Overglow",
+            'title' => "Good Morning",
             'sub' => "Portrait",
             'imagepath' => "singles/single4_sm.jpg"
         ],

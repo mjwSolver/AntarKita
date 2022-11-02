@@ -21,14 +21,23 @@
 
 	@foreach ($photos as $photo)
 
-	<figure class="relative max-w-xs sm:max-w-sm md:max-w-md cursor-pointer">
-		<img class="rounded-lg shadow-xl hover:shadow-2xl"
+	<figure class="relative cursor-pointer
+		max-w-xs sm:max-w-sm md:max-w-md lg:max-w-lg
+		">
+
+		<img class="rounded-lg shadow-xl
+			hover:shadow-2xl hover:scale-110
+			transition ease-in-out delay-150 duration-300
+			"
 			src="/images/{{$photo['imagepath']}}" alt="prewed">
-		<figcaption class="static text-lg -mt-16 text-white w-full px-4 py-1 bg-zinc-800/50 rounded-lg backdrop-blur-sm">
+		<figcaption class="absolute px-3 py-1
+			ml-4 -mt-16 rounded-lg backdrop-blur-sm
+			text-lg text-zinc-50 bg-zinc-800/75">
+
 		  <div class="font-sans font-medium">
 			<h1>{{$photo['title']}}</h1>
 		  </div>
-		  <div> <span class="font-sans font-light">{{$photo['sub']}}</span> </div>
+		  {{-- <div> <span class="font-sans font-light">{{$photo['sub']}}</span> </div> --}}
 		  </figcaption>
 	  </figure>
 
