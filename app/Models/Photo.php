@@ -42,7 +42,23 @@ class Photo extends Model
             'sub' => "Prewed",
             'imagepath' => "prewed/prewed6_sm.jpg"
         ],
-        // Singles
+        // white theme
+        [
+            'title' => "Welcome",
+            'sub' => "Prewed",
+            'imagepath' => "prewed/prewed7_sm.jpg"
+        ],
+        [
+            'title' => "It's a secret",
+            'sub' => "Prewed",
+            'imagepath' => "prewed/prewed8_sm.jpg"
+        ],
+        [
+            'title' => "Together",
+            'sub' => "Prewed",
+            'imagepath' => "prewed/prewed9_sm.jpg"
+        ],
+        // Singles sunny-city
         [
             'title' => "What?",
             'sub' => "Portrait",
@@ -63,6 +79,60 @@ class Photo extends Model
             'sub' => "Portrait",
             'imagepath' => "singles/single4_sm.jpg"
         ],
+        // Singles At the door
+        [
+            'title' => "I'm away",
+            'sub' => "Portrait",
+            'imagepath' => "singles/single5_sm.jpg"
+        ],
+        [
+            'title' => "Knock-knock",
+            'sub' => "Portrait",
+            'imagepath' => "singles/single6_sm.jpg"
+        ],
+        [
+            'title' => "I'll wait for you",
+            'sub' => "Portrait",
+            'imagepath' => "singles/single7_sm.jpg"
+        ],
+        // Automotive Cars
+        [
+            'title' => "clean slate",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive1_sm.jpg"
+        ],
+        [
+            'title' => "parked",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive2_sm.jpg"
+        ],
+        [
+            'title' => "White Supremacy",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive3_sm.jpg"
+        ],
+        [
+            'title' => "Black Domino",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive4_sm.jpg"
+        ],
+        // Automotive Motor
+        [
+            'title' => "Sided",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive5_sm.jpg"
+        ],
+        [
+            'title' => "Sided Top",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive6_sm.jpg"
+        ],
+        [
+            'title' => "On Point",
+            'sub' => "Automotive",
+            'imagepath' => "automotive/automotive7_sm.jpg"
+        ],
+        
     ];
 
     public static function index() {
