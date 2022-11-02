@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PagesController;
 use App\Http\Controllers\photoController;
 use App\Models\Photo;
 use Illuminate\Support\Facades\Route;
@@ -15,16 +16,14 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::view('/', 'welcome');
+Route::get('/', [PagesController::class, 'index'])
+    ->name('index');
 
-// Route::get('/portfolio', function () {
-//     return view('portfolio', [
-//         'photos' => Photo::index()
-//     ]);
-// });
-Route::get('/portfolio', [photoController::class, 'index']);
+Route::get('/kontak-kami', [PagesController::class, 'contact_us'])
+    ->name('contact_us');
 
+Route::get('/tentang-kami', [PagesController::class, 'about_us'])
+    ->name('about_us');
 
-Route::get('/aboutus', function () {
-    return view('aboutus');
-});
+Route::get('/portfolio', [photoController::class, 'index'])
+    ->name('portfolio');
