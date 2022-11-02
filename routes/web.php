@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\photoController;
+use App\Models\Photo;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,9 +17,14 @@ use Illuminate\Support\Facades\Route;
 
 Route::view('/', 'welcome');
 
-Route::get('/portfolio', function () {
-    return view('portfolio');
-});
+// Route::get('/portfolio', function () {
+//     return view('portfolio', [
+//         'photos' => Photo::index()
+//     ]);
+// });
+Route::get('/portfolio', [photoController::class, 'index']);
+
+
 Route::get('/aboutus', function () {
     return view('aboutus');
 });
