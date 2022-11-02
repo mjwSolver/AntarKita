@@ -107,7 +107,7 @@ class Photo extends Model
             'imagepath' => "automotive/automotive2_sm.jpg"
         ],
         [
-            'title' => "White Supremacy",
+            'title' => "White Domino",
             'sub' => "Automotive",
             'imagepath' => "automotive/automotive3_sm.jpg"
         ],
