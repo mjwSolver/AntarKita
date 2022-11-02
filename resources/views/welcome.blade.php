@@ -31,9 +31,9 @@
                                 </div>
 
                                 <div class="flex justify-center px-1">
-                                    <button type="button" 
+                                    <button type="button"
                                             class="inline-flex items-center px-4 py-2 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
-                                            <a href="portfolio"> Lihat Portofolio </a>
+                                        <a href="portfolio"> Lihat Portofolio </a>
                                     </button>
                                 </div>
 
@@ -175,24 +175,52 @@
         <h1 class="mt-4 text-center mb-4 text-4xl font-extrabold tracking-tight text-slate-900 sm:mt-5 sm:leading-none lg:mt-6 lg:text-5xl xl:text-6xl">
             Portofolio Kami
         </h1>
-        <div class="relative overflow-hidden space-y-5 w-[100vw]">
+        <div class="relative overflow-hidden w-[100vw]">
+
+            <div class="relative pb-5 flex overflow-hidden gap-5">
+                <div class="animate-marquee whitespace-nowrap">
+                    <div class="w-[100vw] grid grid-cols-3 gap-5">
+                        <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
+                        <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
+                        <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
+                    </div>
+                </div>
+
+                <div class="absolute top-0 animate-marquee2 whitespace-nowrap">
+                    <div class="w-[100vw] ml-3 grid grid-cols-3 gap-5">
+                        <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
+                        <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
+                        <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
+                    </div>
+                </div>
+            </div>
+
+            <div class="relative flex overflow-hidden gap-5">
+                <div class="animate-marquee-reverse whitespace-nowrap">
+                    <div class="w-[100vw] grid grid-cols-3 gap-5">
+                        <img src="{{asset('images/prewed/prewed6_sm.JPG')}}" class="rounded">
+                        <img src="{{asset('images/singles/single3_SM.jpg')}}" class="rounded">
+                        <img src="{{asset('images/singles/single2_SM.jpg')}}" class="rounded">
+                    </div>
+                </div>
+
+                <div class="absolute top-0 animate-marquee2-reverse whitespace-nowrap">
+                    <div class="w-[100vw] ml-3 grid grid-cols-3 gap-5">
+                        <img src="{{asset('images/prewed/prewed6_sm.JPG')}}" class="rounded">
+                        <img src="{{asset('images/singles/single3_SM.jpg')}}" class="rounded">
+                        <img src="{{asset('images/singles/single2_SM.jpg')}}" class="rounded">
+                    </div>
+                </div>
+            </div>
+
             <div class="absolute bg-gradient-to-r from-gray-100 h-full w-1/4 top-0 left-0"></div>
             <div class="absolute bg-gradient-to-l from-gray-100 h-full w-1/4 top-0 right-0"></div>
-            <div class="w-[105vw] grid grid-cols-3 gap-5">
-                <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
-                <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
-                <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
-            </div>
-            <div class="w-[110vw] grid grid-cols-3 gap-5">
-                <img src="{{asset('images/prewed/prewed6_sm.jpg')}}" class="rounded">
-                <img src="{{asset('images/singles/single2_sm.jpg')}}" class="rounded">
-                <img src="{{asset('images/singles/single3_sm.jpg')}}" class="rounded">
-            </div>
+
         </div>
 
         <div class="w-full flex items-center justify-center mt-4">
             <a href="portfolio"
-                    class="inline-flex items-center px-32 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
+               class="inline-flex items-center px-32 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Lihat Portofolio
             </a>
         </div>
