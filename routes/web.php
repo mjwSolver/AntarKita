@@ -18,3 +18,6 @@ Route::view('/', 'welcome');
 Route::get('/portfolio', function () {
     return view('portfolio');
 });
+Route::get('/aboutus', function () {
+    return view('aboutus');
+});
