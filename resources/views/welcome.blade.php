@@ -43,7 +43,7 @@
                 </div>
                 <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
                     <div class="sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden">
-                        <img src="{{asset('images/grid-photo-1.png')}}" class="h-full w-full" alt="">
+                        <img src="{{asset('images/prewed/prewed_grid1.png')}}" class="h-full w-full" alt="">
                     </div>
                 </div>
             </div>
@@ -55,7 +55,7 @@
             <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 hidden lg:block">
                     <div class="sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden">
-                        <img src="{{asset('images/grid-photo-1.png')}}" class="h-full w-full" alt="">
+                        <img src="{{asset('images/prewed/prewed_grid2.png')}}" class="h-full w-full" alt="">
                     </div>
                 </div>
                 <div
@@ -179,19 +179,19 @@
             <div class="absolute bg-gradient-to-r from-gray-100 h-full w-1/4 top-0 left-0"></div>
             <div class="absolute bg-gradient-to-l from-gray-100 h-full w-1/4 top-0 right-0"></div>
             <div class="w-[105vw] grid grid-cols-3 gap-5">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
+                <img src="{{asset('images/prewed/prewed1_sm.jpg')}}" class="rounded">
+                <img src="{{asset('images/prewed/prewed3_sm.jpg')}}" class="rounded">
+                <img src="{{asset('images/prewed/prewed5_sm.JPG')}}" class="rounded">
             </div>
             <div class="w-[110vw] grid grid-cols-3 gap-5">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
-                <img src="{{asset('images/picture1.png')}}" class="rounded">
+                <img src="{{asset('images/prewed/prewed6_sm.jpg')}}" class="rounded">
+                <img src="{{asset('images/singles/single2_sm.jpg')}}" class="rounded">
+                <img src="{{asset('images/singles/single3_sm.jpg')}}" class="rounded">
             </div>
         </div>
 
         <div class="w-full flex items-center justify-center mt-4">
-            <a href="#"
+            <a href="portfolio"
                     class="inline-flex items-center px-32 py-3 border border-gray-300 shadow-sm text-base font-medium rounded-md text-gray-700 bg-white hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">
                 Lihat Portofolio
             </a>
