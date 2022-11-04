@@ -11,7 +11,7 @@ class PagesController extends Controller
         return view('welcome')->with([
             'carousel_top' => [
                 'images/prewed/prewed1_sm.jpg',
-                'images/prewed/prewed3_sm.jpg',
+                'images/prewed/prewed3_SM.jpg',
                 'images/prewed/prewed5_sm.JPG',
             ],
 
