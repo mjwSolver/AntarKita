@@ -11,11 +11,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+
+    <title>@yield('title', 'Website') - {{config('app.name', 'Laravel')}}</title>
+
+    @yield('head')
 
     {{-- scripts --}}
     <script src="https://unpkg.com/flowbite@1.4.4/dist/flowbite.js"></script>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "ProfessionalService",
+          "name": "AntarKita Photography",
+          "image": "https://antarkitaphotography.com/logoantarkita.png",
+          "@id": "https://antarkitaphotography.com/logoantarkita.png",
+          "url": "https://antarkitaphotography.com",
+          "telephone": "+6282226401130",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "PJCM+73Q, Made, Sambikerep",
+            "addressLocality": "Surabaya",
+            "postalCode": "60219",
+            "addressCountry": "ID"
+          } ,
+          "sameAs": [
+            "https://www.instagram.com/antarakitaphotostudio/",
+            "https://antarkitaphotography.com/"
+          ]
+        }
+    </script>
 </head>
 <body class="font-sans antialiased">
         <div class="min-h-screen bg-zinc-50">

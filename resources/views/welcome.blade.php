@@ -1,7 +1,14 @@
-{{-- Extending something --}}
 @extends('layouts.app')
 
-
+@section('title', 'Homepage')
+@section('head')
+    <link rel="canonical" href="{{route('index')}}">
+    <meta name="keyword"
+          content="fotografi,fotografi surabaya,antarkita,antarkita photography,company photo,graduation photo,wedding photo,photo surabaya">
+    <meta name="og:image" content="{{asset('logoantarkita.png')}}">
+    <meta name="description"
+          content="Abadikan momen paling berkesan anda bersama AntarKita Photography. AntarKita menyediakan berbagai macam jasa fotografi dengan budget yang beragam."/>
+@endsection
 @section('container')
 
     <section class="pt-24 px-8 lg:px-16">
@@ -43,7 +50,8 @@
                 </div>
                 <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0">
                     <div class="sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden">
-                        <img src="{{asset('images/prewed/prewed_grid1.png')}}" class="h-full w-full" alt="">
+                        <img src="{{asset('images/prewed/prewed_grid1.png')}}" class="h-full w-full"
+                             alt="Kolase foto grid AntarKita Photography 1">
                     </div>
                 </div>
             </div>
@@ -55,7 +63,8 @@
             <div class="lg:grid lg:grid-cols-12 lg:gap-8">
                 <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 hidden lg:block">
                     <div class="sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden">
-                        <img src="{{asset('images/prewed/prewed_grid2.png')}}" class="h-full w-full" alt="">
+                        <img src="{{asset('images/prewed/prewed_grid2.png')}}" class="h-full w-full"
+                             alt="Kolase foto grid AntarKita Photography 2">
                     </div>
                 </div>
                 <div
@@ -66,7 +75,8 @@
                             <span class="md:block">AntarKita</span>
                         </h1>
                         <p class="mt-3 text-base text-gray-700 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">AntarKita
-                            adalah jasa fotografi yang didirikan Oleh Ilham Risqi, kami bergerak di bidang fotografi
+                            adalah jasa fotografi untuk Surabaya dan sekitarnya yang didirikan Oleh Ilham Risqi, kami
+                            bergerak di bidang fotografi
                             perusahaan, wedding, dll. "Momen Diabadikan" adalah motto kami, dimana kami akan
                             mengabadikan momen berharga anda dengan kualitas yang memuaskan</p>
                     </div>
@@ -91,7 +101,8 @@
             <div class="col-span-4 flex items-center">
                 <p>AntarKita menyediakan berbagai macam jasa fotografi dengan budget yang beragam. Silakan lihat
                     penawaran
-                    kami dibawah. Apabila anda tertarik dengan jasa kami, anda dapat mengontak AntarKita (Ilham) melalui
+                    kami dibawah. Kami melayani daerah Surabaya dan sekitarnya. Apabila anda tertarik dengan jasa kami,
+                    anda dapat mengontak AntarKita (Ilham) melalui
                     tombol WhatsApp kami.</p>
             </div>
         </div>
@@ -181,7 +192,7 @@
                 <div class="animate-marquee whitespace-nowrap">
                     <div class="w-[100vw] grid grid-cols-3 gap-5">
                         @foreach($carousel_top as $carousel)
-                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel" aria-hidden="true">
+                            <img src="{{asset($carousel)}}" class="rounded" alt="foto cuplikan carousel antarkita photography" aria-hidden="true">
                         @endforeach
                     </div>
                 </div>
@@ -189,7 +200,7 @@
                 <div class="absolute top-0 animate-marquee2 whitespace-nowrap">
                     <div class="w-[100vw] ml-3 grid grid-cols-3 gap-5">
                         @foreach($carousel_top as $carousel)
-                            <img src="{{asset($carousel)}}" class="rounded" alt="carousel image" aria-hidden="true">
+                            <img src="{{asset($carousel)}}" class="rounded" alt="foto cuplikan carousel antarkita photography" aria-hidden="true">
                         @endforeach
                     </div>
                 </div>

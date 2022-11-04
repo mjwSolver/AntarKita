@@ -1,5 +1,14 @@
 @extends('layouts.app')
 
+@section('title', 'Kontak Kami')
+@section('head')
+    <link rel="canonical" href="{{route('contact_us')}}">
+    <meta name="keyword"
+          content="fotografi,fotografi surabaya,portofolio fotografi,antarkita,antarkita photography,portofolio fotografi surabaya,fotografer surabaya">
+    <meta name="og:image" content="{{asset('logoantarkita.png')}}">
+    <meta name="description"
+          content="Ingin membooking AntarKita Photography? Silakan buka halaman ini"/>
+@endsection
 
 @section('container')
     <div class="mx-auto max-w-7xl py-16 px-4 sm:py-24 sm:px-6 lg:px-8">
@@ -52,9 +61,10 @@
                             </defs>
                         </svg>
                     </div>
-                    <h3 class="text-lg font-medium text-white">Contact information</h3>
-                    <p class="mt-6 max-w-3xl text-base text-indigo-50">Jika anda membutuhkan bantuan atau pertanyaan,
-                        Dengan senang hati kami akan membantu anda.</p>
+                    <h1 class="text-lg font-medium text-white">Contact information</h1>
+                    <p class="mt-6 max-w-3xl text-base text-indigo-50">Apakah anda ingin membooking jasa fotografi
+                        daerah surabaya dan sekitarnya, atau ada pertanyaan? Dengan senang hati AntarKita Photography
+                        akan membantu anda!</p>
                     <dl class="mt-8 space-y-6">
                         <dt><span class="sr-only">Phone number</span></dt>
                         <dd class="flex items-center text-base text-indigo-50">
@@ -65,7 +75,7 @@
                                     d="M407.185 336.283c-6.948-3.478-41.108-20.284-47.477-22.606-6.368-2.318-11-3.476-15.632 3.478-4.632 6.954-17.948 22.606-22.001 27.244-4.052 4.636-8.106 5.218-15.054 1.738-6.948-3.477-29.336-10.813-55.874-34.486-20.655-18.424-34.6-41.176-38.652-48.132-4.054-6.956-.434-10.716 3.045-14.18 3.127-3.114 6.95-8.116 10.423-12.174 3.474-4.056 4.632-6.956 6.948-11.59 2.316-4.639 1.158-8.695-.58-12.172-1.736-3.478-15.632-37.679-21.422-51.592-5.64-13.547-11.368-11.712-15.633-11.927-4.048-.201-8.685-.244-13.316-.244-4.632 0-12.16 1.739-18.53 8.693-6.367 6.956-24.317 23.767-24.317 57.964 0 34.202 24.896 67.239 28.371 71.876 3.475 4.639 48.993 74.818 118.695 104.914 16.576 7.16 29.518 11.434 39.609 14.636 16.644 5.289 31.79 4.542 43.763 2.753 13.349-1.993 41.108-16.807 46.898-33.036 5.79-16.233 5.79-30.144 4.052-33.041-1.736-2.899-6.368-4.638-13.316-8.116m-126.776 173.1h-.093c-41.473-.016-82.15-11.159-117.636-32.216l-8.44-5.01-87.475 22.947 23.348-85.288-5.494-8.745c-23.136-36.798-35.356-79.328-35.338-123 .051-127.431 103.734-231.106 231.22-231.106 61.734.022 119.763 24.094 163.402 67.782 43.636 43.685 67.653 101.754 67.629 163.51-.052 127.442-103.733 231.126-231.123 231.126M477.113 81.55C424.613 28.989 354.795.03 280.407 0 127.136 0 2.392 124.736 2.33 278.053c-.02 49.011 12.784 96.847 37.118 139.019L0 561.167l147.41-38.668c40.617 22.153 86.346 33.83 132.886 33.845h.114c153.255 0 278.01-124.748 278.072-278.068.028-74.301-28.869-144.165-81.369-196.725"
                                     fill="#FFF" fill-rule="evenodd"/>
                             </svg>
-                            <a href="https://wa.me/6282226401130" class="ml-3">+6282226401130</a>
+                            <a href="https://wa.me/6282226401130" class="ml-3"><span class="sr-only">Kontak whatsapp antarkita photography adalah</span>+6282226401130</a>
                         </dd>
 
                     </dl>
@@ -83,7 +93,7 @@
                                             d="M335.895 447.859c-61.838 0-111.966-50.128-111.966-111.964 0-61.838 50.128-111.966 111.966-111.966 61.836 0 111.964 50.128 111.964 111.966 0 61.836-50.128 111.964-111.964 111.964zm0-284.451c-95.263 0-172.487 77.224-172.487 172.487 0 95.261 77.224 172.485 172.487 172.485 95.261 0 172.485-77.224 172.485-172.485 0-95.263-77.224-172.487-172.485-172.487m219.608-6.815c0 22.262-18.047 40.307-40.308 40.307-22.26 0-40.307-18.045-40.307-40.307 0-22.261 18.047-40.308 40.307-40.308 22.261 0 40.308 18.047 40.308 40.308"/>
                                     </g>
                                 </svg>
-                                <a class="ml-3" href="https://www.instagram.com/antarakitaphotostudio/">@antarakitaphotostudio</a>
+                                <a class="ml-3" href="https://www.instagram.com/antarakitaphotostudio/"><span class="sr-only">Instagram antarkita photography adalah</span>@antarakitaphotostudio</a>
                             </dd>
 
                         </li>
@@ -118,6 +128,5 @@
                 </div>
             </div>
         </div>
-
     </div>
 @endsection

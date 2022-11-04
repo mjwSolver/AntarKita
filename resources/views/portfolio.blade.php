@@ -1,6 +1,13 @@
 @extends('layouts.app')
 
-{{-- section something --}}
+@section('title', 'Portofolio Kami')
+@section('head')
+    <link rel="canonical" href="{{route('portfolio')}}">
+    <meta name="keyword" content ="fotografi,fotografi surabaya,portofolio fotografi,antarkita,antarkita photography,portofolio fotografi surabaya,fotografer surabaya">
+    <meta name="og:image" content="{{asset('logoantarkita.png')}}">
+    <meta name="description"
+          content="Halaman ini menampilkan berbagai hasil foto dari klien AntarKita Photography sebelumnya"/>
+@endsection
 
 @section('container')
 
@@ -10,8 +17,8 @@
 		<div class="absolute inset-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.6)">
 			<div class="flex justify-center items-center h-full">
 				<div class="text-white">
-					<h2 class="font-semibold text-4xl mb-4 mt-10">Portfolio</h2>
-					<span class="font-normal text-lg mb-6">Berikut adalah portfolio AntarKita</span>
+					<h1 class="font-semibold text-4xl mb-4 mt-10">Portfolio</h1>
+					<h2 class="font-normal text-lg mb-6">Berikut adalah portfolio AntarKita Photography</h2>
 				</div>
 			</div>
 		</div>
@@ -29,7 +36,7 @@
 			hover:shadow-2xl hover:scale-110
 			transition ease-in-out delay-150 duration-300
 			"
-			src="/images/{{$photo['imagepath']}}" alt="prewed">
+			src="/images/{{$photo['imagepath']}}" alt="Foto dari AntarKita Photography yang berjudul '{{$photo['title']}}'">
 		<figcaption class="absolute px-3 py-1
 			ml-4 -mt-16 rounded-lg backdrop-blur-sm
 			text-lg text-zinc-50 bg-zinc-800/75">
