@@ -14,7 +14,7 @@ class Photo extends Model
         [
             'title' => "My darling",
             'sub' => "Prewed",
-            'imagepath' => "prewed/prewed2_sm.jpg"
+            'imagepath' => "prewed/prewed2_SM.jpg"
         ],
         [
             'title' => "We Face",
@@ -24,23 +24,23 @@ class Photo extends Model
         [
             'title' => "Just Us",
             'sub' => "Prewed",
-            'imagepath' => "prewed/prewed3_sm.jpg"
+            'imagepath' => "prewed/prewed3_SM.jpg"
         ],
         // Black theme
         [
             'title' => "Just Black",
             'sub' => "Prewed",
-            'imagepath' => "prewed/prewed4_sm.jpg"
+            'imagepath' => "prewed/prewed4_SM.JPG"
         ],
         [
             'title' => "Just Us",
             'sub' => "Prewed",
-            'imagepath' => "prewed/prewed5_sm.jpg"
+            'imagepath' => "prewed/prewed5_sm.JPG"
         ],
         [
             'title' => "It's Bright",
             'sub' => "Prewed",
-            'imagepath' => "prewed/prewed6_sm.jpg"
+            'imagepath' => "prewed/prewed6_sm.JPG"
         ],
         // white theme
         [
@@ -62,22 +62,22 @@ class Photo extends Model
         [
             'title' => "What?",
             'sub' => "Portrait",
-            'imagepath' => "singles/single1_sm.jpg"
+            'imagepath' => "singles/single1_SM.jpg"
         ],
         [
             'title' => "I think so",
             'sub' => "Portrait",
-            'imagepath' => "singles/single2_sm.jpg"
+            'imagepath' => "singles/single2_SM.jpg"
         ],
         [
             'title' => "Attention",
             'sub' => "Portrait",
-            'imagepath' => "singles/single3_sm.jpg"
+            'imagepath' => "singles/single3_SM.jpg"
         ],
         [
             'title' => "Good Morning",
             'sub' => "Portrait",
-            'imagepath' => "singles/single4_sm.jpg"
+            'imagepath' => "singles/single4_SM.jpg"
         ],
         // Singles At the door
         [
@@ -132,7 +132,7 @@ class Photo extends Model
             'sub' => "Automotive",
             'imagepath' => "automotive/automotive7_sm.jpg"
         ],
-        
+
     ];
 
     public static function index() {
