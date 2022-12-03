@@ -11,6 +11,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RQEXKKP4L5"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
+        gtag('js', new Date());
+
+        gtag('config', 'G-RQEXKKP4L5');
+    </script>
+
 
     <title>@yield('title', 'Website') - {{config('app.name', 'Laravel')}}</title>
 
@@ -37,35 +51,36 @@
             "addressCountry": "ID"
           } ,
           "sameAs": [
-            "https://www.instagram.com/antarakitaphotostudio/",
+            "https://www.instagram.com/antarkita.photography/",
             "https://antarkitaphotography.com/"
           ]
         }
+
     </script>
 </head>
 <body class="font-sans antialiased">
-        <div class="min-h-screen bg-zinc-50">
-            {{-- Navbar inclusion --}}
-           <x-navbar />
+<div class="min-h-screen bg-zinc-50">
+    {{-- Navbar inclusion --}}
+    <x-navbar/>
 
-            <!-- Page Heading -->
-            @if (isset($header))
-                <header class="bg-white shadow">
-                    <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                        {{ $header }}
-                    </div>
-                </header>
-            @endif
-
-            <!-- Page Content -->
-            <main>
-                @yield('container')
-            </main>
-
-            <div class="pt-40">
-                <x-contactusfooter />
+    <!-- Page Heading -->
+    @if (isset($header))
+        <header class="bg-white shadow">
+            <div class="max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
+                {{ $header }}
             </div>
-            <x-footer />
-        </div>
-    </body>
+        </header>
+    @endif
+
+    <!-- Page Content -->
+    <main>
+        @yield('container')
+    </main>
+
+    <div class="pt-40">
+        <x-contactusfooter/>
+    </div>
+    <x-footer/>
+</div>
+</body>
 </html>

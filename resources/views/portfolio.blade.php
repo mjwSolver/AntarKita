@@ -13,7 +13,7 @@
 
 <section class="p-12 h-[50vh] text-center relative bg-no-repeat bg-cover rounded-lg pt-32"
 		{{-- style="background-image: url('images/singles/single3_sm.jpg'); height: 500px;"> --}}
-		style="background-image: url('{{asset('images/prewed/prewed6_sm.jpg')}}');">
+		style="background-image: url('{{asset('images/prewed/prewed6_sm.JPG')}}');">
 		<div class="absolute inset-0 w-full h-full overflow-hidden bg-fixed" style="background-color: rgba(0, 0, 0, 0.6)">
 			<div class="flex justify-center items-center h-full">
 				<div class="text-white">

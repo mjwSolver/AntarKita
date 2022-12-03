@@ -93,7 +93,7 @@
                                             d="M335.895 447.859c-61.838 0-111.966-50.128-111.966-111.964 0-61.838 50.128-111.966 111.966-111.966 61.836 0 111.964 50.128 111.964 111.966 0 61.836-50.128 111.964-111.964 111.964zm0-284.451c-95.263 0-172.487 77.224-172.487 172.487 0 95.261 77.224 172.485 172.487 172.485 95.261 0 172.485-77.224 172.485-172.485 0-95.263-77.224-172.487-172.485-172.487m219.608-6.815c0 22.262-18.047 40.307-40.308 40.307-22.26 0-40.307-18.045-40.307-40.307 0-22.261 18.047-40.308 40.307-40.308 22.261 0 40.308 18.047 40.308 40.308"/>
                                     </g>
                                 </svg>
-                                <a class="ml-3" href="https://www.instagram.com/antarakitaphotostudio/"><span class="sr-only">Instagram antarkita photography adalah</span>@antarakitaphotostudio</a>
+                                <a class="ml-3" href="https://www.instagram.com/antarkita.photography/"><span class="sr-only">Instagram antarkita photography adalah</span>@antarkita.photography</a>
                             </dd>
 
                         </li>

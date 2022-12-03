@@ -83,7 +83,7 @@
                 </div>
                 <div class="mt-16 sm:mt-24 lg:col-span-6 lg:mt-0 lg:hidden block">
                     <div class="sm:mx-auto sm:w-full sm:max-w-md sm:overflow-hidden">
-                        <img src="{{asset('images/grid-photo-1.png')}}" class="h-full w-full" alt="">
+                        <img src="{{asset('images/prewed/prewed_grid2.png')}}" class="h-full w-full" alt="">
                     </div>
                 </div>
             </div>
