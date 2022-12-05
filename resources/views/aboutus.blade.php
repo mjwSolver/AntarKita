@@ -32,11 +32,14 @@
         <div class="mx-auto max-w-7xl">
             <h1 class="text-2xl font-bold">Apa itu AntarKita?</h1>
             <p class="text-lg">
-                Apakah anda memerlukan fotografi dengan kualitas yang memuaskan? AntarKita adalah solusinya! AntarKita
-                menyediakan berbagai macam jasa fotografi dengan budget yang beragam. Bila anda membutuhkan jasa
-                fotografi di daerah Surabaya dan sekitarnya, AntarKita Photography mungkin adalah solusi yang cocok
-                untuk anda. Apabila anda tertarik dengan jasa kami, anda dapat mengontak AntarKita (Ilham) melalui
-                halaman
+                Jika anda sedang mencari jasa fotografi yang berkualitas dan terjangkau di daerah Surabaya dan
+                sekitarnya, AntarKita Photography adalah pilihan yang tepat. Kami menyediakan berbagai macam jasa
+                fotografi, mulai dari wedding photography, graduation photography, yearbook photography, hingga company
+                photography, dengan budget yang bervariasi. Kami memiliki tim fotografer profesional yang siap membantu
+                anda mengabadikan momen-momen penting dalam kehidupan anda dengan cara yang unik dan artistik. Anda
+                dapat menghubungi kami melalui tombol WhatsApp yang tersedia di website kami, atau melalui halaman
+                kontak yang ada di website kami. Kami sangat menantikan kesempatan untuk bekerja sama dengan anda dan
+                membantu anda mengabadikan momen-momen terindah dalam kehidupan anda!
                 <a href="{{route('contact_us')}}">kontak kami</a>.
             </p>
         </div>
